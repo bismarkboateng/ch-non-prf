@@ -1,3 +1,8 @@
 export { default as Logo } from "./images/Logo.png"
 export { default as DownArrow } from "./images/DownArrow.png"
 export { default as Hero } from "./images/Hero.png"
+export { default as About } from "./images/About.png"
+export { default as Line } from "./images/Line.png"
+export { default as Charity } from "./images/Charity.png"
+export { default as Mission } from "./images/Mission.png"
+export { default as Vision } from "./images/Vision.png"
