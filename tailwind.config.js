@@ -14,6 +14,7 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif'],
         playfair: ['Playfair Display', 'serif'],
         sora: ['Sora', 'sans-serif'],
+        workSans: ['Work Sans', 'sans-serif']
       },
     },
   },

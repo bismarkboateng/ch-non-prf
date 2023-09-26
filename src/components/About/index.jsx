@@ -4,8 +4,8 @@ import { Button } from ".."
 
 export default function index() {
   return (
-    <div className="w-full flex flex-col justify-start items-start lg:flex-row
-      items-center gap-12
+    <div className="w-full flex flex-col justify-start 
+    items-start lg:flex-row items-center gap-12
     ">
         <img
           src={About}

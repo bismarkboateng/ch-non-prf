@@ -1,17 +1,22 @@
-import { Navbar, Hero, About, Charity } from "../../components"
+import 
+{ 
+  Navbar, Hero, About,
+  Charity, Gallery, Testimonial
+} from "../../components"
 
 export default function index() {
   return (
     <>
       <Navbar />
       <Hero />
-
-      <div className="border border-red-500 mt-20 lg:mt-32 
+      <div className="mt-20 lg:mt-32 
           w-[95%] mx-auto lg:w-[60%] lg:ml-[20%]"
       >
         <About />
         <Charity />
+        <Gallery />
       </div>
+      <Testimonial />
 
     </>
   )
