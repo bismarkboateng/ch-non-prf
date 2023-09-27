@@ -1,7 +1,8 @@
 import 
 { 
   Navbar, Hero, About,
-  Charity, Gallery, Testimonial
+  Charity, Gallery, Testimonial,
+  Support, Footer
 } from "../../components"
 
 export default function index() {
@@ -17,7 +18,8 @@ export default function index() {
         <Gallery />
       </div>
       <Testimonial />
-
+      <Support />
+      <Footer />
     </>
   )
 }
