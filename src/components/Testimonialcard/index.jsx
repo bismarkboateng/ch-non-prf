@@ -2,7 +2,8 @@ import { quote } from "../../assets"
 
 export default function index({ user }) {
   return (
-    <div className="w-[395.42px] h-[369.38px] rounded-sm
+    <div className="w-[97%] h-[450px] md:w-[390px] md:h-[400px] 
+        lg:w-[395.42px] lg:h-[369.38px] rounded-sm
         border border-[#00725E] pt-10 pl-5 pb-5 pr-5
     ">
         <img src={quote} alt="quote" className="mb-6" />

@@ -1,6 +1,6 @@
 export default function index({ title, text, image }) {
   return (
-   <div className="w-[232px] h-[144px] bg-[#edf7f5] p-4">
+   <div className="w-[232px] h-[144px] bg-[#edf7f5] lg:ml-0 p-4">
         <div className="flex flex-row gap-3 mb-3">
             <img src={image} alt="card image" />
             
@@ -9,7 +9,8 @@ export default function index({ title, text, image }) {
             </div>
         </div>
 
-        <div className="font-montserrat font-normal text-[14px] leading-6 text-[#555555]">
+        <div className="font-montserrat font-normal
+        text-[14px] leading-6 text-[#555555]">
             {text}
         </div>
 

@@ -1,12 +1,26 @@
+import { useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
+
 import { About, Line } from "../../assets"
 import { Button } from ".."
 
 
 export default function index() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+
+    return () => {
+      AOS.refresh()
+    }
+  }, [])
+
   return (
-    <div className="w-full flex flex-col justify-start 
-    items-start lg:flex-row items-center gap-12
-    ">
+    <div data-aos="fade-left" className="w-full flex flex-col justify-start 
+     lg:flex-row items-center gap-12">
         <img
           src={About}
           alt="about"
@@ -18,13 +32,14 @@ export default function index() {
             <img src={Line} alt="line" />
           </div>
 
-          <div className="font-playfair font-bold text-[39px] leading-[50px] mt-5 text-[#252A34]">
+          <div className="font-playfair font-bold text-[25px] 
+            leading-7 lg:text-[39px] lg:leading-[50px] mt-5 text-[#252A34]">
             Your Support is Really<br />
             Powerful.
           </div>
 
-          <div className="font-montserrat font-normal text-base 
-            mt-5 leading-[26px] text-[#444444]">
+          <div className="font-montserrat font-normal text-[15px] leading-6 lg:text-base 
+            mt-5 lg:leading-[26px] text-[#444444]">
            The Secret To Happiness Lies In Helping Others. Never<br />
            Underestimate The Difference YOU Can Make In The<br />
            Lives Of The Poor, The Abused And The Helpless.

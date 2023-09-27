@@ -11,7 +11,7 @@ export default function index() {
       <Navbar />
       <Hero />
       <div className="mt-20 lg:mt-32 
-          w-[95%] mx-auto lg:w-[60%] lg:ml-[20%]"
+          w-[95%] mx-auto lg:w-[60%]"
       >
         <About />
         <Charity />

@@ -5,18 +5,18 @@ import { Testimonialcard } from ".."
 
 export default function index() {
   return (
-    <div className="mt-20 lg:mt-32 
-        w-[95%] mx-auto lg:w-[67%] lg:ml-[20%]"
+    <div className="mt-20 lg:mt-32 w-[80%] mx-auto lg:w-[67%]
+      ml-[20px] md:ml-20 lg:ml-[20%]"
     >
       <div>
-        <p className="font-sora font-normal text-2xl ml-20 lg:ml-0
+        <p className="font-sora font-normal text-2xl  lg:ml-0
           leading-9 text-[#00725E]">
           Testimonial
         </p>
 
         <div className="flex flex-row justify-between mb-5">
-          <h1 className="font-sora font-semibold text-5xl ml-20 lg:ml-0
-           leading-[60.48px] text-[#000504]">
+          <h1 className="font-sora font-semibold text-[30px] leading-8 lg:text-5xl lg:ml-0 
+           lg:leading-[60.48px] text-[#000504]">
             What People Say About<br />
             Us
           </h1>
@@ -24,7 +24,7 @@ export default function index() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-10 ml-20 lg:ml-0 lg:flex-row lg:gap-12">
+      <div className="flex flex-col gap-10 lg:ml-0 lg:flex-row lg:gap-12">
         { userData.map((user) => (<Testimonialcard key={user.id} user={user}/>))}
       </div>
 

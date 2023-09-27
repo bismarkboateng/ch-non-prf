@@ -36,10 +36,10 @@ export default function index() {
           Newsletter
         </div>
 
-        <div className="flex flex-col lg:flex-row items-start mb-4">
+        <div className="flex flex-col md:flex-row items-start mb-4">
           <input
             value=""
-            className="outline-none border-none text-gray-300 pt-5 pb-10 pl-5 pr-32
+            className="outline-none border-none text-gray-300 pt-5 pb-10 pl-5 pr-20 lg:pr-32
             placeholder:font-montserrat placeholder:font-normal 
             placeholder:text-sm placeholder:leading-[18px] placeholder:text-[#555555]"
             placeholder="Enter Your Email"
