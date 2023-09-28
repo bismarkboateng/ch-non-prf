@@ -43,7 +43,7 @@ export default function index() {
           lg:ml-[31.5%]">
           <Button
             className="bg-[#219D80] py-[5px] px-[10px] md:py-[16px] md:px-[32px] font-montserrat
-            font-medium text-[15px] md:text-base leading-6 text-white"
+            font-medium text-[15px] md:text-base leading-6 text-white hover:opacity-90"
           >
             Donate Now
           </Button>
@@ -51,7 +51,7 @@ export default function index() {
           <Button
             className="bg-transparent py-[5px] px-[10px] md:py-[16px] md:px-[32px] 
             font-medium text-[15px] md:text-base leading-6 font-montserrat
-            text-white border border-[#219D80]"
+            text-white border border-[#219D80] hover:bg-[#219D80] transition-all ease duration-500"
           >
             Know About Us
           </Button>

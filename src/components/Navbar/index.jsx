@@ -17,7 +17,7 @@ export default function index() {
       <Button
         className="bg-[#219D80] font-montserrat 
         font-medium text-base leading-6 text-white
-        py-2 px-3
+        py-2 px-3 hover:opacity-90
         md:py-3 md:px-6 md:hidden lg:block"
       >
         Contact us

@@ -10,13 +10,13 @@ export default function index() {
     <>
       <Navbar />
       <Hero />
-      <div className="mt-20 lg:mt-32 
-          w-[95%] mx-auto lg:w-[60%]"
-      >
-        <About />
-        <Charity />
-        <Gallery />
-      </div>
+        <div className="mt-20 lg:mt-32 
+            w-[95%] mx-auto lg:w-[60%]"
+        >
+          <About />
+          <Charity />
+        </div>
+      <Gallery />
       <Testimonial />
       <Support />
       <Footer />
