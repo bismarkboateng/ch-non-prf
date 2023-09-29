@@ -2,10 +2,10 @@ import { Logo } from "../../assets"
 import { Navlink, Button } from ".."
 
 
-export default function index() {
+export default function index(props) {
   return (
-    <nav className="border w-[95%] mx-auto
-      flex flex-row mt-5 items-center
+    <nav className="w-[95%] mx-auto
+      flex flex-row mt-5 items-center 
     ">
       <img
         src={Logo}
@@ -13,7 +13,10 @@ export default function index() {
         className="w-[66px] h-[66px] mr-auto"
       />
 
-      <Navlink />
+      <Navlink 
+        onGallery={props.onGalleryRef}
+        onAbout={props.onAboutRef}
+      />
       <Button
         className="bg-[#219D80] font-montserrat 
         font-medium text-base leading-6 text-white

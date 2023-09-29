@@ -6,9 +6,10 @@ import {
 
 
 export default function index() {
+
   return (
     <div
-       className="flex w-[100%] flex-col lg:flex-row  p-5 mt-5"
+       className="flex w-[100%] flex-col lg:flex-row  p-5 mt-5 lg:mt-20"
     >
       <div data-aos="fade" data-aos-delay="500" 
         className="flex flex-row justify-center 

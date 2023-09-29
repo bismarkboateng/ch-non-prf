@@ -60,7 +60,7 @@ export default function index() {
           />
         </div>
 
-        <div className="flex flex-col w-[100%]  md:w-[481px]">
+        <div className="flex flex-col w-[100%]  md:w-[481px] hidden lg:block">
           <div className="flex flex-row justify-between font-montserrat mb-2">
             <div className="font-semibold text-xl leading-7 text-[#252A34]">
               Donations
