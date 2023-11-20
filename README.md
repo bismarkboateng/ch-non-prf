@@ -10,7 +10,7 @@ Start by cloning the repo:
 
 ```
 https://github.com/bismarkboateng/ch-non-prf.git
-cd ch-none-prf
+cd ch-non-prf
 yarn
 yarn dev
 ```
